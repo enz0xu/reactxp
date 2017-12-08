@@ -1,3 +1,5 @@
-import TodoApp = require('./TodoAppWeb');
+import RX = require('reactxp');
+import App = require('./App');
 
-TodoApp.init();
+RX.App.initialize(true, true);
+RX.UserInterface.setMainView(<App />);
